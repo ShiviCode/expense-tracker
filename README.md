@@ -24,5 +24,5 @@ Make sure you have the following installed:
 ### Clone the repository
 
 ```bash
-git clone [https://github.com/yourusername/expense-tracker.git](https://github.com/ShiviCode/expense-tracker.git)
+git clone https://github.com/ShiviCode/expense-tracker.git
 
