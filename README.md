@@ -1,16 +1,28 @@
-# personal_expense_tracker
+# Expense Tracker App
 
-A new Flutter project.
+The **Expense Tracker App** is a mobile application built with **Flutter** that allows users to manage and track their expenses easily. The app enables users to add, edit, and delete expenses while offering features like multi-language support, modern UI, and local data storage.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Add, Edit & Delete Expenses**: Allows users to manage their expenses by adding, editing, or deleting entries.
+- **Filter Expenses**: Filters expenses based on various criteria for easier management.
+- **Calculate Total Expenses**: Automatically calculates the total amount of all expenses.
+- **Local Data Storage using Hive**: Expenses are stored locally using Hive for quick access and offline capabilities.
+- **Multi-language Support**: Supports multiple languages for broader accessibility.
+- **Modern UI**: A sleek, user-friendly interface.
 
-A few resources to get you started if this is your first Flutter project:
+## Requirements
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Make sure you have the following installed:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Dart](https://dart.dev/get-dart)
+- [VS Code](https://code.visualstudio.com/)
+
+## Setup Instructions
+
+### Clone the repository
+
+```bash
+git clone [https://github.com/yourusername/expense-tracker.git](https://github.com/ShiviCode/expense-tracker.git)
+
