@@ -13,18 +13,15 @@ void main() async {
 
   // Register the Hive type adapter for the Expense model
   Hive.registerAdapter(ExpenseModelAdapter());
-final notificationService = NotificationService();
+  final notificationService = NotificationService();
   await notificationService.init();
 
-  // Request permission for iOS devices
   await notificationService.requestPermissions();
 
   // Schedule the daily reminder notification
   await notificationService.scheduleDailyReminderNotification();
 
-  // Schedule daily reminder notification
-  await notificationService.scheduleDailyReminderNotification();
   // await Hive.deleteBoxFromDisk("expenses");
 
-  runApp(MyApp());
+  runApp(const App());
 }
